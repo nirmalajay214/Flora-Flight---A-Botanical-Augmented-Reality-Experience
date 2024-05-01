@@ -1,0 +1,74 @@
+{
+    "name": "DragonInputActions",
+    "maps": [
+        {
+            "name": "DragonActionMaps",
+            "id": "547f135a-69ef-476e-89aa-33abd4618825",
+            "actions": [
+                {
+                    "name": "MoveForwardSide",
+                    "type": "Value",
+                    "id": "34cbb3ca-0c42-4625-b6fc-612acde8b10f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "1e17eb4e-84d2-4e1f-908a-02ec9f99ebd9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MoveUpDown",
+                    "type": "Value",
+                    "id": "45b6212c-0df0-4f66-b874-b0fdc3b9f7e0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fbbe79b4-902c-4a25-9c0f-653fe912a8df",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForwardSide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93a48d43-743c-4c67-b8a5-5e7bacdea7e6",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveUpDown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4e9e773-dfc1-4350-9421-9ae67ef83116",
+                    "path": "<Touchscreen>/touch0/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
